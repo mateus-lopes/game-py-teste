@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "game-brenda"
+version = "0.1.0"
+description = "jogo com python"
+authors = ["brenda laufer vieira"]
+readme = "README.md"
+packages = [{include = "game_brenda"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
